@@ -1,0 +1,457 @@
+@media only screen and (min-width: 1024px) {
+  .left_menu_side {
+    /* display: none; */
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    z-index: 10;
+  }
+  .footer {
+    z-index: 11;
+  }
+  /* style.css */
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1023px) {
+  .left_menu_side {
+    /* display: none; */
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    z-index: 10;
+  }
+  .footer {
+    z-index: 11;
+  }
+  /* stylecss */
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #search_bar {
+    width: 14vw;
+  }
+  #search_bar:focus {
+    width: 20rem;
+  }
+  .left_menu_side {
+    width: 15.2rem;
+    -webkit-backdrop-filter: blur(3rem);
+    backdrop-filter: blur(3rem);
+    z-index: 10;
+  }
+
+  .footer {
+    height: 3.5rem;
+    z-index: 11;
+  }
+  .footer_left {
+    width: 30%;
+  }
+  .shuffle_btn,
+  .previous_song,
+  .play_btn,
+  .next_song,
+  .repeat_btn {
+    margin: 0 0.3rem 0 0.3rem;
+    font-size: 1.15rem;
+  }
+
+  .footer_right {
+    width: 30%;
+    font-size: 0.9rem;
+  }
+  #current_time {
+    padding: 0 0 0 0.3rem;
+  }
+  #song_duration {
+    padding: 0 0.3rem 0 0;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  hr {
+    margin-top: 0.2rem;
+    /* margin-bottom: 0.5rem; */
+  }
+  .navbar {
+    height: 4.2rem;
+  }
+  #logo_img {
+    position: relative;
+    top: 0.2rem;
+    height: 3.5rem;
+  }
+  #lg {
+    position: absolute;
+    font-size: 0.8rem;
+    font-weight: 700;
+    width: auto;
+    height: auto;
+    /* border: 1px solid red; */
+    left: 3.8rem;
+    top: 15%;
+    letter-spacing: 0.1rem;
+  }
+  #lg::first-line {
+    letter-spacing: 0.05rem;
+    color: #b22262;
+    font-size: 1rem;
+    font-weight: 800;
+  }
+
+  #search_bar {
+    width: 7rem;
+    /* border: #b22262 1px solid; */
+  }
+
+  #search_bar:focus {
+    width: 10rem;
+  }
+  .search_result {
+    position: absolute;
+    top: 3.7rem;
+    left: 25%;
+    width: 25rem;
+  }
+  .search_result .card img {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 5px;
+  }
+  .search_result .card .content {
+    font-size: 0.9rem;
+  }
+
+  .change_music_curr_time {
+    position: fixed;
+    top: 3.9rem;
+    left: 0;
+    width: 100vw;
+    height: 0.5rem;
+    background-color: rgba(135, 207, 235, 0.37);
+    z-index: 5;
+    overflow: hidden;
+    cursor: pointer;
+    display: none;
+  }
+  .left_menu_side {
+    display: none;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    z-index: 10;
+  }
+  .main_body {
+    width: 100%;
+  }
+  .trending_title .trending_name {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #b22262;
+    padding: 0.5rem 0 0 0.5rem;
+    /* text-shadow: #2845dd 0.04rem 0.04rem; */
+  }
+
+  .trending_songs {
+    width: 100%;
+    height: 160px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    /* border: 1px solid black; */
+    margin-top: 0.3rem;
+  }
+
+  .trending_songs li {
+    width: 100px;
+    height: 150px;
+    list-style: none;
+    /* border: 2px solid rgba(26, 71, 95, 0.288); */
+    cursor: pointer;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0 0.5rem 0 0.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 1rem;
+    /* background-color: rgba(127, 255, 212, 0.148); */
+  }
+
+  .trending_songs img {
+    margin: 0;
+    padding: 0;
+    width: 95px;
+    height: 95px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 1rem;
+  }
+  .trending_songs h5 {
+    margin-top: 0;
+    width: 100%;
+    padding-left: 0.2rem;
+    font-size: 0.8rem;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .footer {
+    height: 3.5rem;
+    z-index: 11;
+  }
+  .footer_left {
+    width: 30%;
+  }
+  .shuffle_btn,
+  .previous_song,
+  .play_btn,
+  .next_song,
+  .repeat_btn {
+    margin: 0 0.3rem 0 0.3rem;
+    font-size: 1.15rem;
+  }
+
+  .footer_right {
+    width: 30%;
+    font-size: 0.9rem;
+  }
+  #current_time {
+    padding: 0 0 0 0.3rem;
+  }
+  #song_duration {
+    padding: 0 0.3rem 0 0;
+  }
+  .slash {
+    padding: 0;
+  }
+  #sound_quality {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  hr {
+    margin-top: 0.2rem;
+    /* margin-bottom: 0.5rem; */
+  }
+  .navbar {
+    height: 4.2rem;
+  }
+  #logo_img {
+    position: relative;
+    top: 0.2rem;
+    height: 3.5rem;
+  }
+  #lg {
+    position: absolute;
+    font-size: 0.8rem;
+    font-weight: 700;
+    width: auto;
+    height: auto;
+    /* border: 1px solid red; */
+    left: 3.8rem;
+    top: 15%;
+    letter-spacing: 0.1rem;
+  }
+  #lg::first-line {
+    letter-spacing: 0.05rem;
+    color: #b22262;
+    font-size: 1rem;
+    font-weight: 800;
+  }
+  .for_search_bar {
+    margin-left: 3rem;
+  }
+
+  #search_bar {
+    width: 7rem;
+    /* margin-left: 3rem; */
+    /* border: #b22262 1px solid; */
+  }
+
+  #search_bar:focus {
+    width: 10rem;
+  }
+  .search_result {
+    position: absolute;
+    top: 3.7rem;
+    left: 12%;
+    width: 20rem;
+  }
+  .search_result .card img {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 5px;
+  }
+  .search_result .card .content {
+    font-size: 0.9rem;
+  }
+
+  .change_music_curr_time {
+    position: fixed;
+    top: 3.9rem;
+    left: 0;
+    width: 100vw;
+    height: 0.5rem;
+    background-color: rgba(135, 207, 235, 0.37);
+    z-index: 5;
+    overflow: hidden;
+    cursor: pointer;
+    display: none;
+  }
+  .for_sign_up {
+    display: none;
+  }
+  .left_menu_side {
+    display: none;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    z-index: 10;
+  }
+  .main_body {
+    height: calc(100vh - 3.8rem);
+    width: 100%;
+  }
+  .trending_title .trending_name {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #b22262;
+    padding: 0.5rem 0 0 0.5rem;
+    /* text-shadow: #2845dd 0.04rem 0.04rem; */
+  }
+
+  .trending_songs {
+    width: 100%;
+    height: 160px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    /* border: 1px solid black; */
+    margin-top: 0.3rem;
+  }
+
+  .trending_songs li {
+    width: 100px;
+    height: 150px;
+    list-style: none;
+    /* border: 2px solid rgba(26, 71, 95, 0.288); */
+    cursor: pointer;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0 0.5rem 0 0.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 1rem;
+    /* background-color: rgba(127, 255, 212, 0.148); */
+  }
+
+  .trending_songs img {
+    margin: 0;
+    padding: 0;
+    width: 95px;
+    height: 95px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 1rem;
+  }
+  .trending_songs h5 {
+    margin-top: 0;
+    width: 100%;
+    padding-left: 0.2rem;
+    font-size: 0.8rem;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .footer {
+    height: 4rem;
+    z-index: 10;
+  }
+  .footer_left {
+    width: 35%;
+  }
+  .shuffle_btn,
+  .previous_song,
+  .play_btn,
+  .next_song,
+  .repeat_btn {
+    margin: 0 0.3rem 0 0.3rem;
+    font-size: 1.15rem;
+  }
+
+  .footer_right {
+    /* display: none; */
+    width: 20%;
+    font-size: 0.9rem;
+  }
+  #current_time {
+    padding: 0 0 0 0.3rem;
+    display: none;
+  }
+  #song_duration {
+    padding: 0 0.3rem 0 0;
+    display: none;
+  }
+  .slash {
+    padding: 0;
+    display: none;
+  }
+  #sound_quality {
+    display: none;
+  }
+
+  /* ----------------------for bollywood html---------------------- */
+
+  .bollywood_songs {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-overflow-style: none;
+    overflow: hidden;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(110px, 1fr)
+    ); /* Adjust as needed */
+    /* gap: 10px; */
+  }
+  /* ----------------------for bollywood html---------------------- */
+}

@@ -1,0 +1,1947 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pulse Woofer</title>
+    <link rel="stylesheet" href="bollywood.css" />
+    <link rel="stylesheet" href="mediaQueries.css" />
+    <link href="/favicon.ico" type="image/x-icon" rel="icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+      <div class="hide_left_side">
+        <i id="left_side" class="fa-solid fa-arrow-left-long"></i>
+      </div>
+    <div class="change_music_curr_time">
+      <input
+        type="range"
+        id="seek"
+        min="0"
+        max="100"
+        value="0"
+        class="slider"
+      />
+      <div class="CMCT2"></div>
+      <div class="CMCT3"></div>
+    </div>
+    <div class="for_body_border"></div>
+    <div class="navbar">
+      <div class="for_logo">
+        <a href="https://www.pulsewoofer.com"
+          ><img id="logo_img" src="logo_PW.webp" alt="" />
+          <div id="lg">PULSE <br />WOOFER</div>
+        </a>
+      </div>
+      <div class="for_search_bar">
+        <i class="bi bi-search"></i>
+        <input id="search_bar" type="text" placeholder="Search 📯" />
+        <div class="search_result">
+          <!-- <a href="" class="card">
+            <img src="bollywood images/6.webp" alt="" />
+            <div class="content">
+              Dope Shope
+              <div class="subtitle">Yo Yo Honey Singh</div>
+            </div>
+          </a> -->
+        </div>
+      </div>
+
+      <div class="for_menu_sign">
+        <div class="for_sign_up">
+          <a href="login.html"><i class="bi bi-person"></i>Sign Up</a>
+        </div>
+        <div class="for_menu_btn"><i id="menu_btn" class="bi bi-list"></i></div>
+      </div>
+    </div>
+    <div class="two_parts">
+      <div class="left_menu_side">
+        <div class="for_music_listen">
+          <div class="listen_now">
+            <i class="fa-solid fa-headphones-simple"></i> Listen Now
+          </div>
+
+          <div class="browser"><i class="bi bi-layout-wtf"></i> Browse</div>
+          <div class="playList">
+            <i class="bi bi-music-note-list"></i> PlayList
+          </div>
+          <div class="top_artist"><i class="bi bi-award"></i> Top Artists</div>
+          <div class="Recommended"><i class="bi bi-heart"></i> Liked Songs</div>
+          <div class="trending"><i class="bi bi-star"></i> Trending</div>
+          <div class="top_pulse_Woofer">
+            <i class="bi bi-heart-pulse"></i> Top Pulse Woofer
+          </div>
+          <div class="recommended">
+            <i class="bi bi-arrow-down-right" id="Right_down_arrow"></i>
+            Recommended
+            <div class="left_recommended_songs">
+              <li class="songItems">
+                <!-- <span>01</span> -->
+                <img
+                  id="8_parche_img"
+                  src="/bollywood images/1.webp"
+                  alt="8 parche"
+                />
+                <h5>
+                  8 Parche <br />
+                  <div class="subtitle">Baani Sandhu</div>
+                </h5>
+                <i class="bi bi-play-circle" class="abc" id="1"></i>
+              </li>
+              <li class="songItems">
+                <!-- <span>01</span> -->
+                <img
+                  id="8_parche_img"
+                  src="/bollywood images/1.webp"
+                  alt="8 parche"
+                />
+                <h5>
+                  8 Parche <br />
+                  <div class="subtitle">Baani Sandhu</div>
+                </h5>
+                <i class="bi bi-play-circle" class="abc" id="2"></i>
+              </li>
+              <li class="songItems">
+                <!-- <span>01</span> -->
+                <img
+                  id="8_parche_img"
+                  src="/bollywood images/1.webp"
+                  alt="8 parche"
+                />
+                <h5>
+                  8 Parche <br />
+                  <div class="subtitle">Baani Sandhu</div>
+                </h5>
+                <i class="bi bi-play-circle" class="abc" id="3"></i>
+              </li>
+              <li class="songItems">
+                <!-- <span>01</span> -->
+                <img
+                  id="8_parche_img"
+                  src="/bollywood images/1.webp"
+                  alt="8 parche"
+                />
+                <h5>
+                  8 Parche <br />
+                  <div class="subtitle">Baani Sandhu</div>
+                </h5>
+                <i class="bi bi-play-circle" class="abc" id="4"></i>
+              </li>
+              <li class="songItems">
+                <!-- <span>01</span> -->
+                <img
+                  id="8_parche_img"
+                  src="/bollywood images/1.webp"
+                  alt="8 parche"
+                />
+                <h5>
+                  8 Parche <br />
+                  <div class="subtitle">Baani Sandhu</div>
+                </h5>
+                <i class="bi bi-play-circle" class="abc" id="5"></i>
+              </li>
+
+              <!-- <li class="songItems">
+                <span>06</span>
+                <img
+                  id="dope_shope"
+                  src="/Pulse Woofer/bollywood images/6 dope shope img.webp"
+                  alt="bdy bash"
+                />
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+                <i class="bi bi-play-circle" class="abc" id="6"></i>
+              </li>
+              <li class="songItems">
+                <span>07</span>
+                <img
+                  id="Kaley_Sheeshe"
+                  src="/Pulse Woofer/bollywood images/7 KALEY SHEESHE img.webp"
+                  alt="bdy bash"
+                />
+                <h5>
+                  Kaley Sheeshe <br />
+                  <div class="subtitle">Addy Nagar & Aniket Jain</div>
+                </h5>
+                <i class="bi bi-play-circle" class="abc" id="7"></i>
+              </li>
+              <li class="songItems">
+                <span>08</span>
+                <img
+                  id=" One_Bottle_Down"
+                  src="/Pulse Woofer/bollywood images//8 One Bottle Down img.webp"
+                  alt="bdy bash"
+                />
+                <h5>
+                  One Bottle Down <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+                <i class="bi bi-play-circle" class="abc" id="8"></i>
+              </li>
+              <li class="songItems">
+                <span>09</span>
+                <img
+                  id=" We_Rollin"
+                  src="/Pulse Woofer/bollywood images/9 We Rollin img.webp"
+                  alt="bdy bash"
+                />
+                <h5>
+                  We Rollin <br />
+                  <div class="subtitle">Shubh</div>
+                </h5>
+                <i class="bi bi-play-circle" class="abc" id="9"></i>
+              </li>
+              <li class="songItems">
+                <span>10</span>
+                <img
+                  id=" Devil"
+                  src="/Pulse Woofer/bollywood images/10 DEVIL img.webp"
+                  alt="bdy bash"
+                />
+                <h5>
+                  Devil <br />
+                  <div class="subtitle">Sidhu Moose Wala</div>
+                </h5>
+                <i class="bi bi-play-circle" class="abc" id="10"></i>
+              </li> -->
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="download_app">
+          <i class="bi bi-download"></i>Pulse <span id="span1">Woofer</span>
+          <span id="span2">App</span>
+        </div> -->
+      </div>
+
+      <div class="main_body">
+        <div class="main_body_margin">
+          <!--------------------------------- Bollywood---------------------------------->
+
+          <div id="M_B_I_1">
+            <div class="bollywood_title">
+              <div class="bollywood_name">Bollywood Songs</div>
+              <div class="bollywood_arrow">
+                <i class="fa-solid fa-angles-left" id="bollywood_left_arrow"></i
+                ><i
+                  class="fa-solid fa-angles-right"
+                  id="bollywood_right_arrow"
+                ></i>
+              </div>
+            </div>
+            <!-- <hr /> -->
+            <div class="bollywood_songs">
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="6"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/6.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="7"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/6.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="8"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/6.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="9"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/6.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="10"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/6.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="11"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/6.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="12"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/6.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="13"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/6.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="14"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/6.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="15"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/6.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="16"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/6.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="17"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/6.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="18"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/6.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="19"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/6.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="20"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="21"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="22"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="23"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="24"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="25"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="26"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="27"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="28"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="29"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="30"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="31"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="32"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="33"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="34"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="35"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="36"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="37"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="38"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="39"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="40"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="41"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="42"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="43"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="44"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="45"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="46"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="47"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="48"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="49"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="50"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="51"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="52"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="53"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="54"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="55"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="56"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="57"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="58"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="59"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="60"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="61"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="62"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="63"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="64"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="65"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="66"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="67"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="68"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="69"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="70"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="71"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="72"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="73"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="74"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="75"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="76"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="77"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="78"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="79"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="80"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="81"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="82"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="83"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="84"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="85"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="86"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="87"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="88"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="89"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="90"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="91"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="92"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="93"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="94"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="95"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="96"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="97"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="98"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="99"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="100"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="101"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="102"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="103"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="104"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="105"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="106"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="107"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="108"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="109"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="110"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="111"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="112"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="113"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="114"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="115"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="116"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="117"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="118"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="119"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+              </li>
+              <li class="songItems">
+                <div class="img_play">
+                  <img
+                    id="dope_shope"
+                    src="/songs images/bollywood images/1.webp"
+                    alt="bdy bash"
+                  />
+                  <i class="bi bi-play-circle" class="abc" id="120"></i>
+                </div>
+                <h5>
+                  Dope Shope <br />
+                  <div class="subtitle">Yo Yo Honey Singh</div>
+                </h5>
+              </li>
+
+
+            </div>
+          </div>
+          <hr />
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer_left">
+        <div class="danceWave" id="danceWave">
+          <div class="wave1"></div>
+          <div class="wave1"></div>
+          <div class="wave1"></div>
+        </div>
+        <div class="master_play">
+          <img
+            id="Daku"
+            src="/songs images/bollywood images/5.webp"
+            alt="Daku"
+          />
+          <h5 id="Main_play_title_Daku_h5">
+            Daku | Ik number da <br />
+            <div class="subtitle">Chani Nattan</div>
+          </h5>
+        </div>
+      </div>
+      <div class="footer_center">
+        <div class="shuffle_btn">
+          <i class="fa-solid fa-shuffle" id="shuffle"></i>
+        </div>
+        <div class="previous_song">
+          <i class="fa-solid fa-backward-step" id="previous_song_btn"></i>
+        </div>
+        <div class="play_btn">
+          <!-- <i class="bi bi-play-circle" id="master_play_btn"></i> -->
+          <i class="fa-solid fa-play" id="master_play_btn"></i>
+        </div>
+        <div class="next_song">
+          <i class="fa-solid fa-forward-step" id="next_song_btn"></i>
+        </div>
+        <div class="repeat_btn"><i class="fa-solid fa-repeat"></i></div>
+      </div>
+      <div class="footer_right">
+        <div id="footer_right1">
+          <div class="dow_music_btn">
+            <a
+              href=""
+              download=""
+              title="Download"
+              class="download_btn"
+              id="dwn_song"
+              ><i class="fa-solid fa-download"></i
+            ></a>
+          </div>
+        </div>
+        <div id="footer_right2">
+          <span id="current_time">00:00</span>
+          <span class="slash">/</span>
+          <span id="song_duration">00:00</span>
+        </div>
+        <div id="footer_right3">
+          <div class="for_vol">
+            <div class="change_volume">
+              <div class="change_volume2">
+                <input type="range" id="vol" value="100" min="0" max="100" />
+                <div class="sui_inc"></div>
+                <div class="sui_inc2"></div>
+              </div>
+              <div class="volume">
+                <i id="volume_icon" class="fa-solid fa-volume-high"></i>
+              </div>
+            </div>
+          </div>
+          <div class="sound_quality_btn">
+            <button id="sound_quality">Auto</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="for_hidden_bar"><i class="fa-solid fa-arrow-down"></i></div> -->
+    </div>
+    <script src="bollywood.js"></script>
+  </body>
+</html>
